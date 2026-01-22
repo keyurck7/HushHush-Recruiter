@@ -8,6 +8,12 @@ __pycache__/
 
 .vscode/
 
+.venv312/
+
+models/
+
+
+data/processed/
 
 # Distribution / packaging
 .Python
