@@ -1,3 +1,5 @@
+import pandas as pd
+from typing import Dict, Any
 from __future__ import annotations
 
 from dataclasses import dataclass
@@ -124,3 +126,15 @@ class GithubFeatureExtractor:
             "has_blog": has_blog,
             "has_location": has_location,
         }
+
+def bundle_to_feature_row(bundle: Dict[str, Any]) -> pd.DataFrame:
+    """
+    Convert one fetched GitHub bundle (user + repos + events) into a single-row feature DataFrame.
+    Must match training feature columns.
+    """
+    # If you already have a function that produces a dict of features, reuse it here.
+    # Example: features = extract_github_features(bundle)
+    # Return: pd.DataFrame([features])
+
+    features = extract_github_features(bundle)  # <-- rename to your actual feature function name
+    return pd.DataFrame([features])

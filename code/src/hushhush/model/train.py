@@ -41,8 +41,6 @@ def clean_features(X: pd.DataFrame) -> pd.DataFrame:
 
     return X
 
-
-
 def train_model() -> None:
     df = pd.read_csv(PROCESSED_DIR / "github_features.csv")
 
