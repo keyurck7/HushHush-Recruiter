@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# bdp_template
-basic template for the bdp final project
-=======
 🧠 HushHush Recruiter
 
 HushHush Recruiter is an end-to-end data science system designed to automate candidate discovery using publicly available developer data. The system leverages GitHub and Stack Overflow signals to identify and rank high-potential candidates in a non-deterministic and scalable manner.
@@ -116,11 +112,8 @@ Continuous model retraining
 
 👨‍💻 Contributors
 
-Your Name
-
-Team Members
+Keyur Chaudhari
 
 📌 Note
 
 This project was developed as part of a Big Data Programming course and demonstrates an industry-inspired approach to automated recruitment systems.
->>>>>>> a425d99250bcbda49b22393a5f5a4052e586d0c6
